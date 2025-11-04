@@ -20,9 +20,13 @@ cd reset_windsurf_device-for-mac
 
 ### 2. 运行脚本
 
+**需要使用 sudo 权限运行：**
+
 ```bash
-./reset.sh
+sudo ./reset.sh
 ```
+
+> **注意**：必须使用 `sudo` 运行，否则可能因为权限不足导致修改失败。
 
 ### 3. 重启 Windsurf
 
